@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
+<!--==================================-->
 <head>
   <meta charset="utf-8">
   <title>ℭasey Leon's Personal Webpage</title>
+  <!--THIS is EXTENAL STYLEING-goes w/in HEAD -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
+<!--==================================-->
 <body >
+  <!-- TABLE to create new-->
   <table cellspacing="20">
+    <!--TR= table row -->
+    <!--td = table data-->
+    <!--automatically-->
     <tr>
       <td>
+        <!--HTML image element -->
+        <!--src = "where to get image" alt = "name displayed if image does not show up"-->
         <img src="Images/Araragi-Koyomi.png" alt="Casey's Favorite anime ">
       </td>
       <td>
-        <h1>Casey Leon</h1>
+        <h1 id = "heading">Casey Leon</h1>
         <p>I am a student at <b><i>Santa Barbara City College</i></b> in pursuit of a degree in Computer Science. A few of my hobbies are working out, reading, playing sports and learning new things.
         </p>
       </td>
     </tr>
   </table>
 
-
+  <!--HR is horizabtal rule spacer-->
   <hr >
   <h3>Accolades and Skills</h3>
+  <!--ul = unordered list ol = ordered list li = list item-->
+  <!--HTML list items are ordered downward -->
   <ul>
     <li>
       EMT Certified </li>
@@ -39,6 +48,10 @@
   </ul>
   <hr >
   <h3>Work Experience</h3>
+  <!--TR= table row -->
+  <!--thead  title for columns-->
+  <!--td = table data-->
+  <!--td automatically to the right -->
   <table cellspacing="5">
     <thead>
       <tr>
@@ -120,8 +133,9 @@
   </tbody>
   </table>
   <hr/>
-  <a href="hobbies.html"> My Hobbies</a>
-  <a href="contactme.html">My Contact Info</a>
+  <!--HTML links and anchor tags -->
+  <a class = "hobbies" href="hobbies.html"> My Hobbies</a>
+  <a class = "contact" href="contactme.html">My Contact Info</a>
   <!--<a href ="inputexamples.html">Input Examples</a>-->
 </body>
 

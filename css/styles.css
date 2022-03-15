@@ -9,9 +9,30 @@ hr{
   border-width: 5px;
   width: 7%;
 }
+
+#heading {
+  color: #800000;
+}
 h1{
-  color: red;
+  color:  #b22222;
 }
 h3{
   color: #b22222;
+}
+/*----- ALL anchor tags----*/
+a:hover {
+  color:  #b22222;
+}
+
+a {
+  color: red;
+}
+/*----- ALL anchor tags----*/
+.hobbies {
+  color: red
+}
+
+.contact {
+  color: red;
+
 }
